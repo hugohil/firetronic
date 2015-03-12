@@ -6,9 +6,9 @@ Push sensor data to firebase
 
 ### Installation
 
-```
-$ npm i
-```
+node_modules are pushed to the repository because Arduino Yùn's OpenWRT does not support npm installation.
+
+You'll need to duplicate `auth.json.example` into `auth.json` and put your db address.
 
 ### Usage
 
