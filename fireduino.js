@@ -6,6 +6,7 @@ var request = require('request');
 var fs = require('fs');
 
 var reader = fs.createReadStream(portName);
+reader.setEncoding('utf8');
 reader.on('data', function(data){
   request({
       url: auth.firebase + id + '.json',
