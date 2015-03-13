@@ -6,6 +6,8 @@ Push sensor data to firebase
 
 ### Installation
 
+You'll probably want to read [this](http://blog.arduino.cc/2014/05/06/time-to-expand-your-yun-disk-space-and-install-node-js/).
+
 node_modules are pushed to the repository because Arduino Yùn's OpenWRT does not support npm installation.
 
 You'll need to duplicate `auth.json.example` into `auth.json` and put your db address.
@@ -29,5 +31,6 @@ If, for example, your arduino is located on /dev/ttyACM0, type:
 ```
 $ node fireduino.js /dev/ttyACM0
 ```
+> On Arduino Yùn, serial port for the ATmega 32U4 can be found at /dev/ttyATH0
 
 You'll push to firebase everything that you `Serial.print()` on the Arduino side.
