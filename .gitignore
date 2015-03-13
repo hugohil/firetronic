@@ -1,3 +1,5 @@
 # node_modules/
 auth.json
-stream.js # this was here for test purpose only :)
+
+# this is here for test purpose only :)
+stream.js
