@@ -4,7 +4,8 @@
   "description": "",
   "main": "fireduino.js",
   "dependencies": {
-    "request": "^2.53.0"
+    "request": "^2.53.0",
+    "node-dht-sensor": "^0.0.7"
   },
   "devDependencies": {},
   "scripts": {

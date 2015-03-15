@@ -3,3 +3,5 @@ auth.json
 
 # this is here for test purpose only :)
 stream.js
+
+*.log
