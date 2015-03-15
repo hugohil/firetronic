@@ -4,7 +4,7 @@ var id = auth.deviceID;
 var request = require('request');
 var sensorLib = require('node-dht-sensor');
 var model = Number(process.argv[2]);
-var pin = (process.argv[3]);
+var pin = Number(process.argv[3]);
 
 var sensor = {
   initialize: function () {
