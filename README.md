@@ -51,6 +51,7 @@ You'll push to firebase everything that you `Serial.print()` on the Arduino side
 #### Raspberry Pi
 
 ```shell
-$ node fire-pi-DHT.js 22 4
+$ sudo node fire-pi-DHT.js 22 4
 ```
 Where 22 is my DHT model, and 4 is the GPIO pin attached to the DHT datas (you can of course use any GPIO pin you want).
+> You need to run it with `sudo` because of bcm2835 permissions (i.e access to GPIO).
