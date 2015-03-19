@@ -13,7 +13,7 @@ var sensor = {
   read: function () {
     var readout = sensorLib.read();
     request({
-      url: auth.firebase + id + '.json',
+      url: auth.firebase + id + '/stats.json',
       method: 'PUT',
       json: {
         temp: readout.temperature.toFixed(2),

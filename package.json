@@ -4,6 +4,7 @@
   "description": "",
   "main": "fireduino.js",
   "dependencies": {
+    "mdns": "^2.2.8",
     "node-dht-sensor": "^0.0.7",
     "node-uuid": "^1.4.3",
     "request": "^2.53.0"
